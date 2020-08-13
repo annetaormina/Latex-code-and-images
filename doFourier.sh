@@ -13,6 +13,6 @@ sed -i ' ' '/<head>/ a\
 sed -i ' ' '/<\/head>/ i\
 	<link rel="stylesheet" href=\"https:\/\/samfearn.github.io\/latexml.min.css\">' $FILE.html
 	
-	# The following command adds the right amount of padding around the text in the last box appearing in Fourier.html
+	# The  following command adds the right amount of padding around the text in the last box appearing in Fourier.html
 	
 sed -i ' ' 's/padding-top:12pt;padding-bottom:12pt;/padding-top:0pt;padding-bottom:12pt;padding-left:12pt;padding-right:12pt;/g' $FILE.html 
