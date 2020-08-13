@@ -11,8 +11,7 @@ sed -i ' ' '/<head>/ a\
 	<script src=\"https:\/\/cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML\"><\/script>' $FILE.html
 
 sed -i ' ' '/<\/head>/ i\
-	<link rel="stylesheet" href="./latex.css">
-    ' $FILE.html
+	<link rel="stylesheet" href=\"https:\/\/samfearn.github.io\/latexml.min.css\">' $FILE.html
 	
 	# The following command adds the right amount of padding around the text in the last box appearing in Fourier.html
 	
